@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Trivia Game</title>
+  
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+    <div class="header">
+      <h1>Movie Trivia</h1>
+    </div>
+  <div class="container">
+      <h1 class="rules">Rules:</h1>
+      <p class="rules">You have 60 seconds to answer all 5 questions.</p>
+      <h2>
+        <button type="button" id="startButton">Start</button>
+      </h2>
+      
+      <div id="showTime">60</div>
+      
+      <p class="question">1. The first movie of the Fast and Furious franchise was released in what year?</p>
+      <ul class="choices">
+      <input type="radio" name="q1" value="a" id="1a"><label for="1a">2001</label><br>
+      <input type="radio" name="q1" value="b" id="1b"><label for="1b">1998</label><br>
+      <input type="radio" name="q1" value="c" id="1c"><label for="1c">2003</label><br>
+      <input type="radio" name="q1" value="d" id="1d"><label for="1d">1999</label><br>
+      </ul>
+      <div id=result1></div>
+      
+      <p class="question">2. In the movie, "The Jungle Book", what is the name of the orphaned human boy?</p>
+      <ul class="choices">
+      <input type="radio" name="q2" value="a" id="2a"><label for="2a">Thomas</label><br>
+      <input type="radio" name="q2" value="b" id="2b"><label for="2b">Jesse</label><br>
+      <input type="radio" name="q2" value="c" id="2c"><label for="2c">Mowgli</label><br>
+      <input type="radio" name="q2" value="d" id="2d"><label for="2d">Mateo</label><br>
+      </ul>
+      <div id=result2></div>
+      
+      <p class="question">3. In the movie "The Wizard of Oz", what did the Scarecrow want from the wizard?</p>
+      <ul class="choices">
+      <input type="radio" name="q3" value="a" id="3a"><label for="3a">A heart</label><br>
+      <input type="radio" name="q3" value="b" id="3b"><label for="3b">A brain</label><br>
+      <input type="radio" name="q3" value="c" id="3c"><label for="3c">An arm</label><br>
+      <input type="radio" name="q3" value="d" id="3d"><label for="3d">A leg</label><br>
+      </ul>
+      <div id=result3></div>
+      
+      <p class="question">4. What is the name of the actress who plays Hermione Granger in the Harry Potter series of films?</p>
+      <ul class="choices">
+      <input type="radio" name="q4" value="a" id="4a"><label for="4a">Kiera Knightly</label><br>
+      <input type="radio" name="q4" value="b" id="4b"><label for="4b">Emily Blunt</label><br>
+      <input type="radio" name="q4" value="c" id="4c"><label for="4c">Emma Watson</label><br>
+      <input type="radio" name="q4" value="d" id="4d"><label for="4d">Lindsay Lohan</label><br>
+      </ul>
+      <div id=result4></div>
+      
+      <p class="question">5. What is Michael J. Fox's middle name?</p>
+      <ul class="choices">
+      <input type="radio" name="q5" value="a" id="5a"><label for="5a">Justin</label><br>
+      <input type="radio" name="q5" value="b" id="5b"><label for="5b">James</label><br>
+      <input type="radio" name="q5" value="c" id="5c"><label for="5c">Jeffrey</label><br>
+      <input type="radio" name="q5" value="d" id="5d"><label for="5d">Andrew</label><br>
+      </ul>
+      <div id=result5></div>
+      
+      <button type="button" id="submit">Submit</button>
+      </div>
+      <button type="button" id="restart">Reset</button>
+
+  </div>
+
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="assets/javascript/app.js"></script>
+</body>
+</html>
